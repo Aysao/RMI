@@ -1,0 +1,82 @@
+
+An unexpected exception has been detected in native code outside the VM.
+Unexpected Signal : 11 occurred at PC=0xF7D798F4 during VM shutdown
+Function=(null)
+Library=/lib32/libc.so.6
+
+NOTE: We are unable to locate the function name symbol for the error
+      just occurred. Please refer to release documentation for possible
+      reason and solutions.
+
+
+
+Dynamic libraries:
+08048000-0804e000 r-xp 00000000 00:3a 69469102                           /usr/local/jdk-1.4/bin/javac
+0804e000-0804f000 rwxp 00005000 00:3a 69469102                           /usr/local/jdk-1.4/bin/javac
+0967d000-09709000 rwxp 00000000 00:00 0                                  [heap]
+e9e68000-ea344000 r-xs 00000000 00:3a 69470773                           /usr/local/jdk-1.4/lib/tools.jar
+ea344000-ea400000 r-xs 00000000 00:3a 69470334                           /usr/local/jdk-1.4/jre/lib/ext/localedata.jar
+eab86000-eae00000 r-xp 0006b000 fe:00 13369884                           /usr/lib/locale/locale-archive
+eae00000-eb000000 r-xp 00000000 fe:00 13369884                           /usr/lib/locale/locale-archive
+eb556000-eb572000 r-xs 00000000 00:3a 69470336                           /usr/local/jdk-1.4/jre/lib/ext/sunjce_provider.jar
+eb572000-eb57f000 r-xs 00000000 00:3a 69470333                           /usr/local/jdk-1.4/jre/lib/ext/ldapsec.jar
+f5730000-f5c89000 r-xs 00000000 00:3a 69470247                           /usr/local/jdk-1.4/jre/lib/charsets.jar
+f5c89000-f5d64000 r-xs 00000000 00:3a 69470195                           /usr/local/jdk-1.4/jre/lib/jsse.jar
+f5d64000-f5d7a000 r-xs 00000000 00:3a 69470194                           /usr/local/jdk-1.4/jre/lib/sunrsasign.jar
+f5dc4000-f775c000 r-xs 00000000 00:3a 69470248                           /usr/local/jdk-1.4/jre/lib/rt.jar
+f775c000-f7770000 r-xp 00000000 00:3a 69470258                           /usr/local/jdk-1.4/jre/lib/i386/libzip.so
+f7770000-f7773000 rwxp 00013000 00:3a 69470258                           /usr/local/jdk-1.4/jre/lib/i386/libzip.so
+f7773000-f7834000 r-xs 00000000 fe:02 653580                             /var/cache/nscd/passwd
+f7834000-f7901000 r-xp 00000000 fe:00 13399964                           /usr/lib32/libm-2.28.so
+f7901000-f7902000 r-xp 000cc000 fe:00 13399964                           /usr/lib32/libm-2.28.so
+f7902000-f7903000 rwxp 000cd000 fe:00 13399964                           /usr/lib32/libm-2.28.so
+f7903000-f791a000 r-xp 00000000 fe:00 13399966                           /usr/lib32/libnsl-2.28.so
+f791a000-f791b000 r-xp 00016000 fe:00 13399966                           /usr/lib32/libnsl-2.28.so
+f791b000-f791c000 rwxp 00017000 fe:00 13399966                           /usr/lib32/libnsl-2.28.so
+f791e000-f7d18000 r-xp 00000000 00:3a 69470285                           /usr/local/jdk-1.4/jre/lib/i386/client/libjvm.so
+f7d18000-f7d34000 rwxp 003f9000 00:3a 69470285                           /usr/local/jdk-1.4/jre/lib/i386/client/libjvm.so
+f7d48000-f7f1f000 r-xp 00000000 fe:00 13399961                           /usr/lib32/libc-2.28.so
+f7f1f000-f7f20000 ---p 001d7000 fe:00 13399961                           /usr/lib32/libc-2.28.so
+f7f20000-f7f22000 r-xp 001d7000 fe:00 13399961                           /usr/lib32/libc-2.28.so
+f7f22000-f7f23000 rwxp 001d9000 fe:00 13399961                           /usr/lib32/libc-2.28.so
+f7f26000-f7f2a000 r-xp 00000000 fe:00 13399963                           /usr/lib32/libdl-2.28.so
+f7f2a000-f7f2b000 r-xp 00003000 fe:00 13399963                           /usr/lib32/libdl-2.28.so
+f7f2b000-f7f2c000 rwxp 00004000 fe:00 13399963                           /usr/lib32/libdl-2.28.so
+f7f2c000-f7f48000 r-xp 00000000 fe:00 13399974                           /usr/lib32/libpthread-2.28.so
+f7f48000-f7f49000 ---p 0001c000 fe:00 13399974                           /usr/lib32/libpthread-2.28.so
+f7f49000-f7f4a000 r-xp 0001c000 fe:00 13399974                           /usr/lib32/libpthread-2.28.so
+f7f4a000-f7f4b000 rwxp 0001d000 fe:00 13399974                           /usr/lib32/libpthread-2.28.so
+f7f4d000-f7f50000 r-xs 00000000 00:3a 69470335                           /usr/local/jdk-1.4/jre/lib/ext/dnsns.jar
+f7f50000-f7f61000 r-xs 00000000 00:3a 69470239                           /usr/local/jdk-1.4/jre/lib/jce.jar
+f7f61000-f7f81000 r-xp 00000000 00:3a 69470252                           /usr/local/jdk-1.4/jre/lib/i386/libjava.so
+f7f81000-f7f83000 rwxp 0001f000 00:3a 69470252                           /usr/local/jdk-1.4/jre/lib/i386/libjava.so
+f7f83000-f7f93000 r-xp 00000000 00:3a 69470266                           /usr/local/jdk-1.4/jre/lib/i386/libverify.so
+f7f93000-f7f95000 rwxp 0000f000 00:3a 69470266                           /usr/local/jdk-1.4/jre/lib/i386/libverify.so
+f7f95000-f7f99000 rwxs 00000000 fe:03 27                                 /tmp/hsperfdata_yt646712/18419 (deleted)
+f7f99000-f7fa1000 r-xp 00000000 00:3a 69470277                           /usr/local/jdk-1.4/jre/lib/i386/native_threads/libhpi.so
+f7fa1000-f7fa2000 rwxp 00007000 00:3a 69470277                           /usr/local/jdk-1.4/jre/lib/i386/native_threads/libhpi.so
+f7fa4000-f7fa7000 r--p 00000000 00:00 0                                  [vvar]
+f7fa7000-f7fa9000 r-xp 00000000 00:00 0                                  [vdso]
+f7fa9000-f7fd0000 r-xp 00000000 fe:00 13399957                           /usr/lib32/ld-2.28.so
+f7fd1000-f7fd2000 r-xp 00027000 fe:00 13399957                           /usr/lib32/ld-2.28.so
+f7fd2000-f7fd3000 rwxp 00028000 fe:00 13399957                           /usr/lib32/ld-2.28.so
+ff800000-ff821000 rwxp 00000000 00:00 0                                  [stack]
+
+Heap at VM Abort:
+Heap
+ def new generation   total 576K, used 455K [0xeb680000, 0xeb720000, 0xebb60000)
+  eden space 512K,  88% used [0xeb680000, 0xeb6f1c70, 0xeb700000)
+  from space 64K,   0% used [0xeb700000, 0xeb700000, 0xeb710000)
+  to   space 64K,   0% used [0xeb710000, 0xeb710000, 0xeb720000)
+ tenured generation   total 7552K, used 0K [0xebb60000, 0xec2c0000, 0xef680000)
+   the space 7552K,   0% used [0xebb60000, 0xebb60000, 0xebb60200, 0xec2c0000)
+ compacting perm gen  total 4096K, used 1249K [0xef680000, 0xefa80000, 0xf3680000)
+   the space 4096K,  30% used [0xef680000, 0xef7b8700, 0xef7b8800, 0xefa80000)
+
+Local Time = Tue Sep  7 14:04:12 2021
+Elapsed Time = 0
+#
+# The exception above was detected in native code outside the VM
+#
+# Java VM: Java HotSpot(TM) Client VM (1.4.2_03-b02 mixed mode)
+#
